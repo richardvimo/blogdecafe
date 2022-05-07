@@ -33,6 +33,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
+            ["normalize.css", "npm:8.0.1"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -41,9 +42,19 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         ["workspace:.", {\
           "packageLocation": "./",\
           "packageDependencies": [\
-            ["blogdecafe", "workspace:."]\
+            ["blogdecafe", "workspace:."],\
+            ["normalize.css", "npm:8.0.1"]\
           ],\
           "linkType": "SOFT"\
+        }]\
+      ]],\
+      ["normalize.css", [\
+        ["npm:8.0.1", {\
+          "packageLocation": "./.yarn/cache/normalize.css-npm-8.0.1-6124fb39b6-4698cae88e.zip/node_modules/normalize.css/",\
+          "packageDependencies": [\
+            ["normalize.css", "npm:8.0.1"]\
+          ],\
+          "linkType": "HARD"\
         }]\
       ]]\
     ]\

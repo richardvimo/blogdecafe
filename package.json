@@ -1,4 +1,7 @@
 {
   "name": "blogdecafe",
-  "packageManager": "yarn@3.2.0"
+  "packageManager": "yarn@3.2.0",
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  }
 }
