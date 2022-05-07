@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>curso line-horizontal Cafe | richardvimo</title>
+
+     <!--Normalize siempre debe cargar primero en el proyecto -->
+     <link rel="preload" href="node_modules/normalize.css/normalize.css" as="style">
+     <link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
+ 
+     <!--fuentes de google fonts para el proyecto -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">    
+ 
+     <!-- Mi Estilos Personalizados del Proyecto -->
+     <link rel="preload" href="css/style.css" as="style">
+     <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-text center-horizontal-verrtical">
+            <h2 class="no-margin">blog de cafe con consejos y cursos</h2>
+            <p class="no-margin text-center">aprende de los expertos con las mejores recetas y consejos</p>
+        </div>
+    
+        <div class="container">
+            <div class="nav__bar">
+                <a href="index.html" class="logo">
+                    <h1 class="logo__name">Blog<span class="text-bold">DeCafé</span></h1>
+                </a>
+                    
+                <nav class="nav">
+                    <a href="nosotros.html" class="nav__link">Nosotros</a>
+                    <a href="cursos.html" class="nav__link">Cursos</a>
+                    <a href="contacto.html" class="nav__link">Contacto</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="container"> 
+        <h3 class="curso__titulo">Nuestros Próximos Cursos y Talleres</h3>
+       
+        <div class="cursos">
+            <div class="curso line-horizontal">
+                <div class="curso__imagen">
+                    <img class="curso__imagen" src="img/curso1.jpg" alt="imagen curso line-horizontal">
+                </div>
+                <div class="curso__contenido">
+                    <h4 class="no-margin text-left">Técnicas de Extracción del Café</h4>
+                    <p class="text-bold">Precio: <span class="text-normal">Grátis</span> </p>
+                    <p class="text-bold">Cupo: <span class="text-normal">20</span> </p>
+                    <p class="blog__contenido__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit error facere quam suscipit et, dolor ea sequi odit distinctio reprehenderit assumenda mollitia? Neque repudiandae tempora fugit iure necessitatibus vel exercitationem?</p>
+                </div>
+            </div>
+            <div class="curso line-horizontal">
+                <div class="curso__imagen">
+                    <img class="curso__imagen" src="img/curso2.jpg" alt="imagen curso line-horizontal">
+                </div>
+                <div class="curso__contenido">
+                    <h4 class="no-margin text-left">Taller para tostar y moler Grano</h4>
+                    <p class="text-bold">Precio: <span class="text-normal">Grátis</span> </p>
+                    <p class="text-bold">Cupo: <span class="text-normal">20</span> </p>
+                    <p class="blog__contenido__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit error facere quam suscipit et, dolor ea sequi odit distinctio reprehenderit assumenda mollitia? Neque repudiandae tempora fugit iure necessitatibus vel exercitationem?</p>
+                </div>
+            </div>
+            <div class="curso">
+                <div class="curso__imagen">
+                    <img class="curso__imagen" src="img/curso3.jpg" alt="imagen curso line-horizontal">
+                </div>
+                <div class="curso__contenido">
+                    <h4 class="no-margin text-left">4 Recetas de Café para Principiantes</h4>
+                    <p class="text-bold">Precio: <span class="text-normal">Grátis</span> </p>
+                    <p class="text-bold">Cupo: <span class="text-normal">20</span> </p>
+                    <p class="blog__contenido__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit error facere quam suscipit et, dolor ea sequi odit distinctio reprehenderit assumenda mollitia? Neque repudiandae tempora fugit iure necessitatibus vel exercitationem?</p>
+                </div>
+            </div>
+        </div> <!-- .cursos -->
+    </main>
+
+    <footer class="footer">
+        <a href="index.html" class="logo">
+            <h3 class="logo__name">Blog<span class="text-bold">DeCafé</span></h3>
+        </a>
+        <nav class="nav">
+            <a href="nosotros.html" class="nav__link">Nosotros</a>
+            <a href="cursos.html" class="nav__link">Cursos</a>
+            <a href="contacto.html" class="nav__link">Contacto</a>
+        </nav>
+    </footer>
+
+    <script src="js/modernizr.js"></script>
+</body>
+</html>

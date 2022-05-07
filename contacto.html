@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Cafe | richardvimo</title>
+
+     <!--Normalize siempre debe cargar primero en el proyecto -->
+     <link rel="preload" href="node_modules/normalize.css/normalize.css" as="style">
+     <link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
+ 
+     <!--fuentes de google fonts para el proyecto -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">    
+ 
+     <!-- Mi Estilos Personalizados del Proyecto -->
+     <link rel="preload" href="css/style.css" as="style">
+     <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-text center-horizontal-verrtical">
+            <h2 class="no-margin">blog de cafe con consejos y cursos</h2>
+            <p class="no-margin text-center">aprende de los expertos con las mejores recetas y consejos</p>
+        </div>
+    
+        <div class="container">
+            <div class="nav__bar">
+                <a href="index.html" class="logo">
+                    <h1 class="logo__name">Blog<span class="text-bold">DeCafé</span></h1>
+                </a>
+                    
+                <nav class="nav">
+                    <a href="nosotros.html" class="nav__link">Nosotros</a>
+                    <a href="cursos.html" class="nav__link">Cursos</a>
+                    <a href="contacto.html" class="nav__link">Contacto</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="container"> 
+        <h3 class="blog__titulo">Contacto</h3>
+
+        <div class="bg__imagen"></div>
+
+        <form action="#" class="formulario">
+            <div class="campo">
+                <label for="nombre">Nombre: </label>
+                <input type="text" id="nombre" autofocus>
+            </div>
+            <div class="campo">
+                <label for="email">Email: </label>
+                <input type="email" id="email">
+            </div>
+            <div class="campo">
+                <label for="email">Mensaje: </label>
+                <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+            </div>
+            <div class="btnSubmit">
+                <a href="" class="blog__btnSubmit">enviar</a>
+            </div>
+        </form>
+    </main>
+
+    <footer class="footer">
+        <a href="index.html" class="logo">
+            <h3 class="logo__name">Blog<span class="text-bold">DeCafé</span></h3>
+        </a>
+        <nav class="nav">
+            <a href="nosotros.html" class="nav__link">Nosotros</a>
+            <a href="cursos.html" class="nav__link">Cursos</a>
+            <a href="contacto.html" class="nav__link">Contacto</a>
+        </nav>
+    </footer>
+
+    <script src="js/modernizr.js"></script>
+</body>
+</html>
